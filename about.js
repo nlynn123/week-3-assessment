@@ -1,11 +1,11 @@
 console.log("hello world");
-
+let form = document.querySelector('#contact')
 const image = document.querySelector('#duck')
 
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	console.log('form submit');
+	alert('You have submitted!');
 }
 
 
@@ -15,9 +15,6 @@ function handleSubmit(evt) {
     alert (myText);;
   }
 
-
-
-let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
 image.addEventListener('mouseover', showAlert)

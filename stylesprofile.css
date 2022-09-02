@@ -3,6 +3,7 @@ h1 {
  color: crimson;
      text-align: center; 
  }
+ 
 
 body {
     background: #ddd;
@@ -10,17 +11,24 @@ body {
     padding: 1rem;
     font-family: "Open Sans", sans-serif;
   }
+ 
+ol {
+	padding-left: 0;
+    color: crimson;
 
+}
 
 #intro {
     color: black;
-    display: flex;
-    flex-direction: row;
 }
 
 #hobbies {
     color: black;
     display: flex;
-    flex-direction: row;
-    width: 50px; 
+    flex-direction: row; 
+}
+
+.faveButtons {
+    width: 10vh; 
+    background-color: goldenrod
 }
